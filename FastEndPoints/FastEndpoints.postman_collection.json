@@ -1,0 +1,163 @@
+{
+	"info": {
+		"_postman_id": "6f311980-e7e5-408e-b9f7-07a21b598ccd",
+		"name": "FastEndpoints",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "createResponse",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"FirstName\": \"marlon5\",\r\n\t\"LastName\": \"brando5\",\r\n\t\"Age\": 40\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5117/api/createResponse",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5117",
+					"path": [
+						"api",
+						"createResponse"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get all keys",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"FirstName\": \"marlon2\",\r\n\t\"LastName\": \"brando2\",\r\n\t\"Age\": 40\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5117/api/keys",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5117",
+					"path": [
+						"api",
+						"keys"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get all Responses",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"FirstName\": \"marlon2\",\r\n\t\"LastName\": \"brando2\",\r\n\t\"Age\": 40\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5117/api/getAllResponses",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5117",
+					"path": [
+						"api",
+						"getAllResponses"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Clear all keys Copy",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"FirstName\": \"marlon2\",\r\n\t\"LastName\": \"brando2\",\r\n\t\"Age\": 40\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5117/api/DeleteAllkeys",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5117",
+					"path": [
+						"api",
+						"DeleteAllkeys"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getResponseById",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\r\n\t\r\n\t\"GUID\":   \"1fda0a96-36a0-4e98-ae4e-5b5db2b049c6\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5117/api/getResponseById",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5117",
+					"path": [
+						"api",
+						"getResponseById"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
